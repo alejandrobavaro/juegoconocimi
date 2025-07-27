@@ -1,0 +1,137 @@
+/* ==========================================================
+   FOOTER - ESTILO ARCADE/GAMER
+   ========================================================== */
+
+/* --------------------------
+   TIPOGRAFÍA GAMER
+   -------------------------- */
+   @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+   .footer-container {
+     display: grid;
+     grid-template-rows: auto auto;
+     width: 100%;
+     max-width: auto;
+     margin: 0 auto;
+     padding: 20px;
+     background: rgba(4, 50, 68, 0.301); /* Fondo oscuro con transparencia */
+     border-radius: 15px;
+    
+     text-align: center;
+     color: #00f5ff;
+     font-family: 'Orbitron', sans-serif; /* Tipografía arcade */
+   }
+   
+   /* ==============================================
+      PRIMERA FILA - Logos y redes sociales
+      ============================================== */
+   .footer-content {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     width: 100%;
+   
+     @media (min-width: 768px) {
+       flex-direction: row;
+       gap: 40px;
+     }
+   }
+   
+   .footer-column {
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+     .footer-logo {
+       width: 80px;
+       transition: transform 0.3s ease, filter 0.3s ease;
+   
+       &:hover {
+         transform: scale(1.1);
+         filter: drop-shadow(0 0 8px #00f5ff);
+       }
+     }
+   }
+   
+   .social-links {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     font-size: 0.9rem;
+     color: #00f5ff;
+   
+     a {
+       color: #00f5ff;
+       text-decoration: none;
+       transition: color 0.3s ease, text-shadow 0.3s ease;
+   
+       &:hover {
+         color: #ff00c8;
+         text-shadow: 0 0 5px #ff00c8;
+       }
+     }
+   
+     @media (min-width: 768px) {
+       flex-direction: row;
+       gap: 20px;
+     }
+   }
+   
+   /* ==============================================
+      SEPARADOR HR
+      ============================================== */
+   hr {
+     margin: 1rem 0;
+     border-top: 1px solid rgba(0, 255, 255, 0.3);
+   }
+   
+   /* ==============================================
+      SEGUNDA FILA - Derechos de autor
+      ============================================== */
+   .trademarkFooter {
+     width: 100%;
+     text-align: center;
+     margin-top: 10px;
+     padding: 0;
+   }
+   
+   .tituloImportanteFooter4 {
+     font-size: 1rem;
+   
+     a {
+       color: #00f5ff;
+       text-decoration: none;
+       cursor: pointer;
+       transition: color 0.3s ease, text-shadow 0.3s ease;
+   
+       &:hover {
+         color: #ff00c8;
+         text-shadow: 0 0 5px #ff00c8;
+       }
+     }
+   }
+   
+   /* ==============================================
+      BREAKPOINTS (Mobile First)
+      ============================================== */
+   @media (min-width: 768px) {
+     .footer-container {
+       padding: 30px;
+     }
+   
+     .tituloImportanteFooter4 {
+       font-size: 1.2rem;
+     }
+   }
+   
+   @media (min-width: 1024px) {
+     .footer-container {
+       padding: 40px;
+     }
+   
+     .footer-logo {
+       width: 100px;
+     }
+   }
+   

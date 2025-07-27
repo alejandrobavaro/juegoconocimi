@@ -1,0 +1,193 @@
+/* ==========================================================
+   CONTACTO LOGO + REDES + FORMULARIO (2 columnas en desktop)
+   ----------------------------------------------------------
+   Mobile-first, gamer/arcade, sin mixins ni variables.
+   ========================================================== */
+
+   .contacto-logo-redes {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    background-size: 400% 400%;
+    animation: bgAnimation 12s ease infinite;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+    color: #fff;
+  }
+  
+  @keyframes bgAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* ------------------------
+     COLUMNA IZQUIERDA
+     ------------------------ */
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .contact-logo .logo-img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+  
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 0.6rem;
+  
+    .social-btn {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(0, 245, 255, 0.1);
+      color: #00f5ff;
+      font-size: 1.2rem;
+      transition: background 0.3s, transform 0.3s;
+  
+      &:hover {
+        background: #00f5ff;
+        color: #000;
+        transform: scale(1.1);
+      }
+    }
+  }
+  
+  .contact-banner .banner-img {
+    width: 150px;
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: transform 0.3s ease;
+    &:hover { transform: scale(1.05); opacity: 1; }
+  }
+  
+  /* ------------------------
+     COLUMNA DERECHA (FORMULARIO)
+     ------------------------ */
+  .contact-right {
+    background: rgba(15, 12, 41, 0.9);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  
+    .form-title {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #00f5ff;
+    }
+  
+    /* Filas para dos columnas en desktop */
+    .form-row {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+  
+    .form-group {
+      display: flex;
+      flex-direction: column;
+  
+      input,
+      textarea {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #444;
+        border-radius: 5px;
+        background: #111;
+        color: #fff;
+        font-size: 0.9rem;
+        transition: border 0.3s, box-shadow 0.3s;
+  
+        &:focus {
+          border-color: #00f5ff;
+          box-shadow: 0 0 5px #00f5ff;
+          outline: none;
+        }
+      }
+    }
+  
+    .btn-submit {
+      background: linear-gradient(45deg, #00f5ff, #00d4ff);
+      color: #000;
+      font-weight: bold;
+      border: none;
+      padding: 0.6rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.3s, box-shadow 0.3s;
+  
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0 10px #00f5ff, 0 0 20px #00d4ff;
+      }
+    }
+  }
+  
+  /* ------------------------
+     BREAKPOINTS
+     ------------------------ */
+  @media (min-width: 768px) {
+    .contacto-logo-redes {
+      gap: 2rem;
+      padding: 1.5rem;
+    }
+  
+    .social-links {
+      gap: 0.8rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .contacto-logo-redes {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 2rem;
+    }
+  
+    .contact-left,
+    .contact-right {
+      flex: 1;
+    }
+  
+    .contact-left {
+      align-items: center;
+    }
+  
+    .contact-right {
+      margin-left: 1rem;
+    }
+  
+    /* En desktop: filas del formulario pasan a filas horizontales con 2 columnas */
+    .contact-form .form-row {
+      flex-direction: row;
+      gap: 1rem;
+    }
+  }
+  

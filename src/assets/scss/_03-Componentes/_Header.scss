@@ -1,0 +1,175 @@
+/* ============================================================
+   ESTILOS PARA EL HEADER PRINCIPAL
+   ============================================================ */
+
+/* Contenedor principal del header */
+.app-header {
+  width: 100%;
+  background-color: rgba(13, 13, 41, 0.9);
+  padding: 10px 0;
+  border-bottom: 1px solid #00f5ff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Contenedor interno para alineación */
+.header-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Estilos para el logo */
+.logo {
+  cursor: pointer;
+  
+  img {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+/* Estilos para la navegación principal */
+.main-nav {
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    
+    li {
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 5px 10px;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        
+        &:hover {
+          color: #00f5ff;
+          background-color: rgba(0, 245, 255, 0.1);
+        }
+      }
+    }
+  }
+}
+
+/* Widget de usuario */
+.user-widget {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+  .user-points {
+    color: gold;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #00f5ff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .login-button {
+    padding: 8px 15px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: #ff5722;
+    }
+  }
+}
+
+/* ============================================================
+   BREAKPOINT PARA TABLET (768px)
+   ============================================================ */
+@media (min-width: 768px) {
+  .app-header {
+    padding: 15px 0;
+  }
+  
+  .header-container {
+    padding: 0 15px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .main-nav ul {
+    gap: 20px;
+    
+    li a {
+      font-size: 1rem;
+      padding: 8px 15px;
+    }
+  }
+  
+  .user-widget {
+    gap: 20px;
+    
+    .user-avatar {
+      width: 45px;
+      height: 45px;
+    }
+    
+    .login-button {
+      padding: 10px 20px;
+    }
+  }
+}
+
+/* ============================================================
+   BREAKPOINT PARA ESCRITORIO (1024px)
+   ============================================================ */
+@media (min-width: 1024px) {
+  .header-container {
+    padding: 0 20px;
+  }
+  
+  .main-nav ul {
+    gap: 25px;
+    
+    li a {
+      font-size: 1.1rem;
+    }
+  }
+  
+  .user-widget {
+    .user-points {
+      font-size: 1rem;
+    }
+    
+    .user-avatar {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}

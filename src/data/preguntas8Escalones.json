@@ -1,0 +1,970 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cuál es la capital de Francia?",
+    "opciones": ["Londres", "Berlín", "París", "Madrid"],
+    "respuestaCorrecta": "París",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué elemento químico tiene el símbolo 'O'?",
+    "opciones": ["Oro", "Oxígeno", "Osmio", "Oganesón"],
+    "respuestaCorrecta": "Oxígeno",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿En qué año llegó el hombre a la Luna?",
+    "opciones": ["1965", "1969", "1972", "1958"],
+    "respuestaCorrecta": "1969",
+    "dificultad": 3,
+    "categoria": "Historia"
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Cuál es el río más largo del mundo?",
+    "opciones": ["Amazonas", "Nilo", "Yangtsé", "Misisipi"],
+    "respuestaCorrecta": "Nilo",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+    "opciones": ["Tierra", "Marte", "Júpiter", "Saturno"],
+    "respuestaCorrecta": "Júpiter",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Quién pintó 'La Mona Lisa'?",
+    "opciones": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Michelangelo"
+    ],
+    "respuestaCorrecta": "Leonardo da Vinci",
+    "dificultad": 2,
+    "categoria": "Arte"
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Cuál es el océano más grande del mundo?",
+    "opciones": [
+      "Océano Atlántico",
+      "Océano Índico",
+      "Océano Ártico",
+      "Océano Pacífico"
+    ],
+    "respuestaCorrecta": "Océano Pacífico",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Qué gas es esencial para la respiración humana?",
+    "opciones": ["Nitrógeno", "Dióxido de carbono", "Oxígeno", "Hidrógeno"],
+    "respuestaCorrecta": "Oxígeno",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Cuál es la capital de Japón?",
+    "opciones": ["Seúl", "Pekín", "Tokio", "Bangkok"],
+    "respuestaCorrecta": "Tokio",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Quién escribió 'Don Quijote de la Mancha'?",
+    "opciones": [
+      "Gabriel García Márquez",
+      "Pablo Neruda",
+      "Miguel de Cervantes",
+      "Federico García Lorca"
+    ],
+    "respuestaCorrecta": "Miguel de Cervantes",
+    "dificultad": 2,
+    "categoria": "Literatura"
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Cuál es el metal más abundante en la corteza terrestre?",
+    "opciones": ["Oro", "Hierro", "Aluminio", "Cobre"],
+    "respuestaCorrecta": "Aluminio",
+    "dificultad": 3,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 12,
+    "pregunta": "¿En qué año comenzó la Segunda Guerra Mundial?",
+    "opciones": ["1914", "1939", "1945", "1933"],
+    "respuestaCorrecta": "1939",
+    "dificultad": 2,
+    "categoria": "Historia"
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Cuál es el país más grande del mundo por área?",
+    "opciones": ["China", "Estados Unidos", "Canadá", "Rusia"],
+    "respuestaCorrecta": "Rusia",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Cuál es el animal terrestre más rápido?",
+    "opciones": ["Leopardo", "Guepardo", "Tigre", "León"],
+    "respuestaCorrecta": "Guepardo",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Quién fue el primer presidente de los Estados Unidos?",
+    "opciones": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "respuestaCorrecta": "George Washington",
+    "dificultad": 2,
+    "categoria": "Historia"
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Cuál es la montaña más alta del mundo?",
+    "opciones": ["K2", "Kangchenjunga", "Monte Everest", "Lhotse"],
+    "respuestaCorrecta": "Monte Everest",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Qué científico desarrolló la teoría de la relatividad?",
+    "opciones": [
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Albert Einstein",
+      "Stephen Hawking"
+    ],
+    "respuestaCorrecta": "Albert Einstein",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Cuál es la capital de Australia?",
+    "opciones": ["Sídney", "Melbourne", "Canberra", "Brisbane"],
+    "respuestaCorrecta": "Canberra",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Cuál es el libro más vendido en el mundo después de la Biblia?",
+    "opciones": [
+      "El Señor de los Anillos",
+      "Don Quijote de la Mancha",
+      "Citas del Presidente Mao Tse-Tung",
+      "Harry Potter y la piedra filosofal"
+    ],
+    "respuestaCorrecta": "Citas del Presidente Mao Tse-Tung",
+    "dificultad": 3,
+    "categoria": "Literatura"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Cuál es el desierto más grande del mundo?",
+    "opciones": [
+      "Desierto del Sahara",
+      "Desierto de Arabia",
+      "Desierto de Gobi",
+      "Antártida"
+    ],
+    "respuestaCorrecta": "Antártida",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Qué planeta es conocido como el Planeta Rojo?",
+    "opciones": ["Venus", "Júpiter", "Marte", "Saturno"],
+    "respuestaCorrecta": "Marte",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Quién pintó 'La Noche Estrellada'?",
+    "opciones": [
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Vincent van Gogh",
+      "Claude Monet"
+    ],
+    "respuestaCorrecta": "Vincent van Gogh",
+    "dificultad": 2,
+    "categoria": "Arte"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Cuál es el país más poblado del mundo?",
+    "opciones": ["India", "Estados Unidos", "Indonesia", "China"],
+    "respuestaCorrecta": "China",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Cuál es el elemento químico con el símbolo 'H'?",
+    "opciones": ["Helio", "Hidrógeno", "Hierro", "Hafnio"],
+    "respuestaCorrecta": "Hidrógeno",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 25,
+    "pregunta": "¿En qué año cayó el Muro de Berlín?",
+    "opciones": ["1985", "1989", "1991", "1987"],
+    "respuestaCorrecta": "1989",
+    "dificultad": 2,
+    "categoria": "Historia"
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Cuál es la capital de Brasil?",
+    "opciones": ["Río de Janeiro", "São Paulo", "Brasilia", "Salvador"],
+    "respuestaCorrecta": "Brasilia",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Qué escritor es conocido por obras como 'Cien años de soledad'?",
+    "opciones": [
+      "Pablo Neruda",
+      "Jorge Luis Borges",
+      "Gabriel García Márquez",
+      "Mario Vargas Llosa"
+    ],
+    "respuestaCorrecta": "Gabriel García Márquez",
+    "dificultad": 2,
+    "categoria": "Literatura"
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Cuál es el mamífero más grande del mundo?",
+    "opciones": ["Elefante africano", "Ballena azul", "Jirafa", "Oso polar"],
+    "respuestaCorrecta": "Ballena azul",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Cuál es la moneda oficial de Japón?",
+    "opciones": ["Yuan", "Won", "Yen", "Ringgit"],
+    "respuestaCorrecta": "Yen",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Quién fue el líder de la Revolución Cubana?",
+    "opciones": ["Che Guevara", "Fidel Castro", "Hugo Chávez", "Raúl Castro"],
+    "respuestaCorrecta": "Fidel Castro",
+    "dificultad": 2,
+    "categoria": "Historia"
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Cuál es el lago más grande de África?",
+    "opciones": ["Lago Victoria", "Lago Tanganica", "Lago Malawi", "Lago Chad"],
+    "respuestaCorrecta": "Lago Victoria",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Qué inventor es conocido por la bombilla eléctrica?",
+    "opciones": [
+      "Nikola Tesla",
+      "Alexander Graham Bell",
+      "Thomas Edison",
+      "George Westinghouse"
+    ],
+    "respuestaCorrecta": "Thomas Edison",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Cuál es la capital de Sudáfrica?",
+    "opciones": ["Johannesburgo", "Ciudad del Cabo", "Pretoria", "Durban"],
+    "respuestaCorrecta": "Pretoria",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Qué país es conocido como la Tierra del Sol Naciente?",
+    "opciones": ["China", "Corea del Sur", "Japón", "Tailandia"],
+    "respuestaCorrecta": "Japón",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Quién escribió '1984'?",
+    "opciones": [
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "George Orwell",
+      "H.G. Wells"
+    ],
+    "respuestaCorrecta": "George Orwell",
+    "dificultad": 2,
+    "categoria": "Literatura"
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
+    "opciones": ["Oxígeno", "Dióxido de carbono", "Argón", "Nitrógeno"],
+    "respuestaCorrecta": "Nitrógeno",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 37,
+    "pregunta": "¿En qué año se descubrió América?",
+    "opciones": ["1492", "1500", "1453", "1521"],
+    "respuestaCorrecta": "1492",
+    "dificultad": 1,
+    "categoria": "Historia"
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Cuál es el país más pequeño del mundo?",
+    "opciones": ["Mónaco", "San Marino", "Vaticano", "Liechtenstein"],
+    "respuestaCorrecta": "Vaticano",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Qué artista es conocido por 'La Persistencia de la Memoria'?",
+    "opciones": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Joan Miró",
+      "René Magritte"
+    ],
+    "respuestaCorrecta": "Salvador Dalí",
+    "dificultad": 2,
+    "categoria": "Arte"
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Cuál es el río más largo de América del Sur?",
+    "opciones": ["Río Amazonas", "Río Paraná", "Río Orinoco", "Río Magdalena"],
+    "respuestaCorrecta": "Río Amazonas",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 41,
+    "pregunta": "¿Cuál es el símbolo químico del oro?",
+    "opciones": ["Ag", "Au", "Fe", "Pb"],
+    "respuestaCorrecta": "Au",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 42,
+    "pregunta": "¿Quién fue el primer hombre en pisar la Luna?",
+    "opciones": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "John Glenn"],
+    "respuestaCorrecta": "Neil Armstrong",
+    "dificultad": 2,
+    "categoria": "Historia"
+  },
+  {
+    "id": 43,
+    "pregunta": "¿Cuál es la capital de Canadá?",
+    "opciones": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "respuestaCorrecta": "Ottawa",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 44,
+    "pregunta": "¿Qué científico es conocido por la teoría de la evolución?",
+    "opciones": [
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Charles Darwin",
+      "Francis Crick"
+    ],
+    "respuestaCorrecta": "Charles Darwin",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 45,
+    "pregunta": "¿Cuál es el país con más idiomas oficiales?",
+    "opciones": ["India", "Sudáfrica", "Zimbabue", "Bolivia"],
+    "respuestaCorrecta": "Zimbabue",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 46,
+    "pregunta": "¿Cuál es el ave más grande del mundo?",
+    "opciones": ["Cóndor", "Albatros", "Avestruz", "Águila"],
+    "respuestaCorrecta": "Avestruz",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 47,
+    "pregunta": "¿Cuál es la capital de Argentina?",
+    "opciones": ["Córdoba", "Rosario", "Buenos Aires", "Mendoza"],
+    "respuestaCorrecta": "Buenos Aires",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 48,
+    "pregunta": "¿Qué escritor es conocido por 'El Principito'?",
+    "opciones": [
+      "Gabriel García Márquez",
+      "Antoine de Saint-Exupéry",
+      "Jules Verne",
+      "Victor Hugo"
+    ],
+    "respuestaCorrecta": "Antoine de Saint-Exupéry",
+    "dificultad": 2,
+    "categoria": "Literatura"
+  },
+  {
+    "id": 49,
+    "pregunta": "¿Cuál es el planeta más cercano al Sol?",
+    "opciones": ["Venus", "Tierra", "Mercurio", "Marte"],
+    "respuestaCorrecta": "Mercurio",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 50,
+    "pregunta": "¿En qué año terminó la Segunda Guerra Mundial?",
+    "opciones": ["1943", "1944", "1945", "1946"],
+    "respuestaCorrecta": "1945",
+    "dificultad": 2,
+    "categoria": "Historia"
+  },
+  {
+    "id": 51,
+    "pregunta": "¿Cuál es el animal más venenoso del mundo?",
+    "opciones": [
+      "Serpiente Taipán",
+      "Avispa de mar",
+      "Rana dorada",
+      "Pez piedra"
+    ],
+    "respuestaCorrecta": "Avispa de mar",
+    "dificultad": 3,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 52,
+    "pregunta": "¿Cuál es la capital de Italia?",
+    "opciones": ["Milán", "Venecia", "Roma", "Nápoles"],
+    "respuestaCorrecta": "Roma",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 53,
+    "pregunta": "¿Qué país tiene la forma de una bota?",
+    "opciones": ["España", "Grecia", "Italia", "Croacia"],
+    "respuestaCorrecta": "Italia",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+
+  {
+    "id": 54,
+    "pregunta": "¿Cuál es el océano más pequeño del mundo?",
+    "opciones": [
+      "Océano Índico",
+      "Océano Atlántico",
+      "Océano Ártico",
+      "Océano Antártico"
+    ],
+    "respuestaCorrecta": "Océano Ártico",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 55,
+    "pregunta": "¿Qué elemento químico tiene el símbolo 'Na'?",
+    "opciones": ["Níquel", "Sodio", "Neón", "Nitrógeno"],
+    "respuestaCorrecta": "Sodio",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 56,
+    "pregunta": "¿Quién fue el primer presidente de Argentina?",
+    "opciones": [
+      "Bernardino Rivadavia",
+      "José de San Martín",
+      "Manuel Belgrano",
+      "Juan Perón"
+    ],
+    "respuestaCorrecta": "Bernardino Rivadavia",
+    "dificultad": 3,
+    "categoria": "Historia"
+  },
+  {
+    "id": 57,
+    "pregunta": "¿Cuál es el país con más islas del mundo?",
+    "opciones": ["Indonesia", "Filipinas", "Suecia", "Noruega"],
+    "respuestaCorrecta": "Suecia",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 58,
+    "pregunta": "¿Qué científico descubrió la penicilina?",
+    "opciones": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Robert Koch",
+      "Joseph Lister"
+    ],
+    "respuestaCorrecta": "Alexander Fleming",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 59,
+    "pregunta": "¿Cuál es la capital de México?",
+    "opciones": ["Guadalajara", "Monterrey", "Ciudad de México", "Puebla"],
+    "respuestaCorrecta": "Ciudad de México",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 60,
+    "pregunta": "¿Qué famoso científico desarrolló la teoría de la relatividad general?",
+    "opciones": [
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Albert Einstein",
+      "Stephen Hawking"
+    ],
+    "respuestaCorrecta": "Albert Einstein",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 61,
+    "pregunta": "¿Cuál es el lago más profundo del mundo?",
+    "opciones": [
+      "Lago Tanganica",
+      "Lago Baikal",
+      "Lago Superior",
+      "Lago Victoria"
+    ],
+    "respuestaCorrecta": "Lago Baikal",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 62,
+    "pregunta": "¿Qué país es el mayor productor de café del mundo?",
+    "opciones": ["Colombia", "Vietnam", "Brasil", "Etiopía"],
+    "respuestaCorrecta": "Brasil",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 63,
+    "pregunta": "¿Cuál es la capital de Nueva Zelanda?",
+    "opciones": ["Auckland", "Wellington", "Christchurch", "Hamilton"],
+    "respuestaCorrecta": "Wellington",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 64,
+    "pregunta": "¿Qué famoso explorador lideró la primera expedición en circunnavegar el globo?",
+    "opciones": [
+      "Cristóbal Colón",
+      "Marco Polo",
+      "Ferdinand Magellan",
+      "James Cook"
+    ],
+    "respuestaCorrecta": "Ferdinand Magellan",
+    "dificultad": 2,
+    "categoria": "Historia"
+  },
+  {
+    "id": 65,
+    "pregunta": "¿Cuál es el metal más duro conocido?",
+    "opciones": ["Oro", "Hierro", "Diamante", "Platino"],
+    "respuestaCorrecta": "Diamante",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 66,
+    "pregunta": "¿Cuál es la capital de Turquía?",
+    "opciones": ["Estambul", "Ankara", "Esmirna", "Antalya"],
+    "respuestaCorrecta": "Ankara",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 67,
+    "pregunta": "¿Qué país es conocido como el 'País de las Maravillas'?",
+    "opciones": ["India", "Tailandia", "Japón", "China"],
+    "respuestaCorrecta": "Tailandia",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 68,
+    "pregunta": "¿Cuál es el elemento químico más abundante en el universo?",
+    "opciones": ["Oxígeno", "Carbono", "Hidrógeno", "Nitrógeno"],
+    "respuestaCorrecta": "Hidrógeno",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 69,
+    "pregunta": "¿Cuál es la capital de Kenia?",
+    "opciones": ["Nairobi", "Mombasa", "Kisumu", "Nakuru"],
+    "respuestaCorrecta": "Nairobi",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 70,
+    "pregunta": "¿Qué famoso científico es conocido por sus leyes del movimiento?",
+    "opciones": [
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Johannes Kepler"
+    ],
+    "respuestaCorrecta": "Isaac Newton",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 71,
+    "pregunta": "¿Cuál es el país más visitado del mundo?",
+    "opciones": ["Italia", "España", "Estados Unidos", "Francia"],
+    "respuestaCorrecta": "Francia",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 72,
+    "pregunta": "¿Cuál es el animal más grande que ha existido?",
+    "opciones": ["Dinosaurio", "Ballena azul", "Mamut", "Tiburón"],
+    "respuestaCorrecta": "Ballena azul",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 73,
+    "pregunta": "¿Cuál es la capital de Egipto?",
+    "opciones": ["Alejandría", "El Cairo", "Giza", "Luxor"],
+    "respuestaCorrecta": "El Cairo",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 74,
+    "pregunta": "¿Qué país tiene la mayor cantidad de volcanes activos?",
+    "opciones": ["Japón", "Indonesia", "Estados Unidos", "Filipinas"],
+    "respuestaCorrecta": "Indonesia",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 75,
+    "pregunta": "¿Cuál es el símbolo químico de la plata?",
+    "opciones": ["Pt", "Au", "Ag", "Pb"],
+    "respuestaCorrecta": "Ag",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 76,
+    "pregunta": "¿Cuál es la capital de Marruecos?",
+    "opciones": ["Casablanca", "Marrakech", "Rabat", "Fez"],
+    "respuestaCorrecta": "Rabat",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 77,
+    "pregunta": "¿Qué famoso científico desarrolló la vacuna contra la rabia?",
+    "opciones": [
+      "Louis Pasteur",
+      "Robert Koch",
+      "Alexander Fleming",
+      "Edward Jenner"
+    ],
+    "respuestaCorrecta": "Louis Pasteur",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 78,
+    "pregunta": "¿Cuál es el país más grande de América del Sur?",
+    "opciones": ["Argentina", "Colombia", "Brasil", "Perú"],
+    "respuestaCorrecta": "Brasil",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 79,
+    "pregunta": "¿Cuál es el elemento químico con el símbolo 'Fe'?",
+    "opciones": ["Fósforo", "Hierro", "Flúor", "Plata"],
+    "respuestaCorrecta": "Hierro",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 80,
+    "pregunta": "¿Cuál es la capital de Chile?",
+    "opciones": ["Valparaíso", "Santiago", "Concepción", "Viña del Mar"],
+    "respuestaCorrecta": "Santiago",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 81,
+    "pregunta": "¿Qué país es el mayor productor de oro del mundo?",
+    "opciones": ["Sudáfrica", "Estados Unidos", "Australia", "China"],
+    "respuestaCorrecta": "China",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 82,
+    "pregunta": "¿Cuál es el animal más rápido del mundo en el agua?",
+    "opciones": ["Delfín", "Tiburón", "Pez vela", "Marlín"],
+    "respuestaCorrecta": "Pez vela",
+    "dificultad": 3,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 83,
+    "pregunta": "¿Cuál es la capital de Perú?",
+    "opciones": ["Arequipa", "Cusco", "Lima", "Trujillo"],
+    "respuestaCorrecta": "Lima",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 84,
+    "pregunta": "¿Qué famoso científico es conocido por la teoría de la evolución por selección natural?",
+    "opciones": [
+      "Gregor Mendel",
+      "Jean-Baptiste Lamarck",
+      "Charles Darwin",
+      "Alfred Russel Wallace"
+    ],
+    "respuestaCorrecta": "Charles Darwin",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 85,
+    "pregunta": "¿Cuál es el país con más lenguas oficiales?",
+    "opciones": ["India", "Bolivia", "Sudáfrica", "Zimbabue"],
+    "respuestaCorrecta": "Zimbabue",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 86,
+    "pregunta": "¿Cuál es el símbolo químico del mercurio?",
+    "opciones": ["Mg", "Mc", "Hg", "Mr"],
+    "respuestaCorrecta": "Hg",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 87,
+    "pregunta": "¿Cuál es la capital de Colombia?",
+    "opciones": ["Medellín", "Cali", "Bogotá", "Barranquilla"],
+    "respuestaCorrecta": "Bogotá",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 88,
+    "pregunta": "¿Qué país es el mayor exportador de petróleo del mundo?",
+    "opciones": ["Arabia Saudita", "Rusia", "Estados Unidos", "Irak"],
+    "respuestaCorrecta": "Arabia Saudita",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 89,
+    "pregunta": "¿Cuál es el animal más longevo conocido?",
+    "opciones": ["Tortuga", "Ballena", "Elefante", "Almeja de Islandia"],
+    "respuestaCorrecta": "Almeja de Islandia",
+    "dificultad": 3,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 90,
+    "pregunta": "¿Cuál es la capital de Venezuela?",
+    "opciones": ["Maracaibo", "Valencia", "Caracas", "Barquisimeto"],
+    "respuestaCorrecta": "Caracas",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 91,
+    "pregunta": "¿Qué famoso científico descubrió la ley de la gravitación universal?",
+    "opciones": [
+      "Galileo Galilei",
+      "Johannes Kepler",
+      "Isaac Newton",
+      "Albert Einstein"
+    ],
+    "respuestaCorrecta": "Isaac Newton",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 92,
+    "pregunta": "¿Cuál es el país con más husos horarios?",
+    "opciones": ["Rusia", "Estados Unidos", "Francia", "Reino Unido"],
+    "respuestaCorrecta": "Francia",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 93,
+    "pregunta": "¿Cuál es el elemento químico más ligero?",
+    "opciones": ["Helio", "Hidrógeno", "Litio", "Berilio"],
+    "respuestaCorrecta": "Hidrógeno",
+    "dificultad": 1,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 94,
+    "pregunta": "¿Cuál es la capital de Ecuador?",
+    "opciones": ["Guayaquil", "Cuenca", "Quito", "Manta"],
+    "respuestaCorrecta": "Quito",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 95,
+    "pregunta": "¿Qué país es el mayor productor de diamantes del mundo?",
+    "opciones": ["Sudáfrica", "Rusia", "Botsuana", "Australia"],
+    "respuestaCorrecta": "Rusia",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 96,
+    "pregunta": "¿Cuál es el animal más ruidoso del mundo?",
+    "opciones": ["Ballena azul", "Elefante", "Mono aullador", "Cigarra"],
+    "respuestaCorrecta": "Ballena azul",
+    "dificultad": 3,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 97,
+    "pregunta": "¿Cuál es la capital de Uruguay?",
+    "opciones": ["Punta del Este", "Salto", "Montevideo", "Paysandú"],
+    "respuestaCorrecta": "Montevideo",
+    "dificultad": 1,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 98,
+    "pregunta": "¿Qué famoso científico es conocido por sus contribuciones a la teoría atómica?",
+    "opciones": [
+      "Ernest Rutherford",
+      "Niels Bohr",
+      "John Dalton",
+      "J.J. Thomson"
+    ],
+    "respuestaCorrecta": "John Dalton",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 99,
+    "pregunta": "¿Cuál es el país con más bosques del mundo?",
+    "opciones": ["Brasil", "Canadá", "Rusia", "Estados Unidos"],
+    "respuestaCorrecta": "Rusia",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 100,
+    "pregunta": "¿Cuál es el símbolo químico del potasio?",
+    "opciones": ["Pt", "Po", "K", "Pa"],
+    "respuestaCorrecta": "K",
+    "dificultad": 2,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 101,
+    "pregunta": "¿Cuál es la capital de Paraguay?",
+    "opciones": ["Ciudad del Este", "Luque", "Asunción", "Encarnación"],
+    "respuestaCorrecta": "Asunción",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 102,
+    "pregunta": "¿Qué país es el mayor productor de cacao del mundo?",
+    "opciones": ["Brasil", "Costa de Marfil", "Ghana", "Nigeria"],
+    "respuestaCorrecta": "Costa de Marfil",
+    "dificultad": 3,
+    "categoria": "Geografía"
+  },
+  {
+    "id": 103,
+    "pregunta": "¿Cuál es el animal más venenoso de Australia?",
+    "opciones": [
+      "Serpiente taipán",
+      "Araña de Sídney",
+      "Medusa caja",
+      "Pez piedra"
+    ],
+    "respuestaCorrecta": "Medusa caja",
+    "dificultad": 3,
+    "categoria": "Ciencia"
+  },
+  {
+    "id": 104,
+    "pregunta": "¿Cuál es la capital de Bolivia?",
+    "opciones": ["La Paz", "Santa Cruz", "Sucre", "Cochabamba"],
+    "respuestaCorrecta": "Sucre",
+    "dificultad": 2,
+    "categoria": "Geografía"
+  }
+]

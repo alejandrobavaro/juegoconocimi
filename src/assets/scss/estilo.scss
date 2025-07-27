@@ -1,0 +1,44 @@
+/*-----------------SASS A CSS------------------------*/
+//------------GENERAL--------------//
+@import "./_01-General/BodyIndexApp";
+
+@import "./_01-General/SweetAlert";
+@import "./_01-General/Toastify";
+
+
+//------------HEADER--------------//
+@import "./_03-Componentes/Header";
+
+
+//-----------HOME - MAIN-----------------//
+@import "./_03-Componentes/MainPublicidadSlider";
+@import "./_03-Componentes/MainContent";
+
+
+//GAMES---------------//
+@import "./_03-Componentes/GamesListado.scss";
+
+@import "./_03-Componentes/GamesJuegoAdivina";
+@import "./_03-Componentes/GamesJuegoBingo";
+@import "./_03-Componentes/GamesJuegoConocimiento";
+@import "./_03-Componentes/GamesJuegoLaRule";
+@import "./_03-Componentes/GamesJuegoTetris";
+
+
+//----------------------//
+@import "./_03-Componentes/ApuestasCredito";
+
+@import "./_03-Componentes/CasinoListado";
+
+
+@import "./_03-Componentes/ContactoLogoRedes";
+@import "./_03-Componentes/ContactoFormularioSlider";
+
+
+//--------------FOOTER----------------//
+@import "./_03-Componentes/Footer";
+@import "./_03-Componentes/FooterGondraWorldDev";
+
+
+
+

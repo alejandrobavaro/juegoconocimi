@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "categoria": "Ciencia",
+      "dificultad": "facil",
+      "pregunta": "¿Cuál es el elemento químico con símbolo 'O'?",
+      "opciones": ["Oro", "Oxígeno", "Osmio", "Oganesón"],
+      "respuestaCorrecta": "Oxígeno",
+      "explicacion": "El oxígeno es esencial para la respiración y tiene el símbolo 'O' en la tabla periódica."
+    },
+    {
+      "id": 2,
+      "categoria": "Historia",
+      "dificultad": "medio",
+      "pregunta": "¿En qué año comenzó la Segunda Guerra Mundial?",
+      "opciones": ["1914", "1939", "1941", "1925"],
+      "respuestaCorrecta": "1939",
+      "explicacion": "La Segunda Guerra Mundial comenzó el 1 de septiembre de 1939 con la invasión de Polonia por Alemania."
+    },
+    {
+      "id": 3,
+      "categoria": "Entretenimiento",
+      "dificultad": "dificil",
+      "pregunta": "¿Quién dirigió la película 'El Padrino'?",
+      "opciones": ["Martin Scorsese", "Steven Spielberg", "Francis Ford Coppola", "Alfred Hitchcock"],
+      "respuestaCorrecta": "Francis Ford Coppola",
+      "explicacion": "Francis Ford Coppola dirigió la trilogía de 'El Padrino', considerada una de las mejores de la historia del cine."
+    },
+    {
+      "id": 4,
+      "categoria": "Deportes",
+      "dificultad": "medio",
+      "pregunta": "¿Qué país ha ganado más Copas del Mundo de fútbol?",
+      "opciones": ["Alemania", "Brasil", "Italia", "Argentina"],
+      "respuestaCorrecta": "Brasil",
+      "explicacion": "Brasil ha ganado 5 Copas del Mundo (1958, 1962, 1970, 1994 y 2002), más que cualquier otro país."
+    },
+    {
+      "id": 5,
+      "categoria": "Tecnología",
+      "dificultad": "facil",
+      "pregunta": "¿Qué compañía desarrolló el sistema operativo Android?",
+      "opciones": ["Apple", "Microsoft", "Google", "Samsung"],
+      "respuestaCorrecta": "Google",
+      "explicacion": "Google adquirió Android Inc. en 2005 y desde entonces ha desarrollado el sistema operativo Android."
+    },
+    {
+      "id": 6,
+      "categoria": "Arte",
+      "dificultad": "dificil",
+      "pregunta": "¿Quién pintó 'La noche estrellada'?",
+      "opciones": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Salvador Dalí"],
+      "respuestaCorrecta": "Vincent van Gogh",
+      "explicacion": "'La noche estrellada' fue pintada por Vincent van Gogh en 1889 durante su estancia en un asilo en Saint-Rémy-de-Provence."
+    },
+    {
+      "id": 7,
+      "categoria": "Geografía",
+      "dificultad": "medio",
+      "pregunta": "¿Cuál es el río más largo del mundo?",
+      "opciones": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
+      "respuestaCorrecta": "Amazonas",
+      "explicacion": "El río Amazonas tiene aproximadamente 7,062 km de longitud, superando al Nilo (6,650 km)."
+    },
+    {
+      "id": 8,
+      "categoria": "Cultura General",
+      "dificultad": "facil",
+      "pregunta": "¿Cuántos colores tiene el arcoíris?",
+      "opciones": ["5", "6", "7", "8"],
+      "respuestaCorrecta": "7",
+      "explicacion": "Los colores del arcoíris son: rojo, naranja, amarillo, verde, azul, añil y violeta."
+    },
+    {
+      "id": 9,
+      "categoria": "Ciencia",
+      "dificultad": "dificil",
+      "pregunta": "¿Qué científico formuló la teoría de la relatividad?",
+      "opciones": ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Galileo Galilei"],
+      "respuestaCorrecta": "Albert Einstein",
+      "explicacion": "Albert Einstein publicó la teoría de la relatividad especial en 1905 y la teoría de la relatividad general en 1915."
+    },
+    {
+      "id": 10,
+      "categoria": "Historia",
+      "dificultad": "medio",
+      "pregunta": "¿Qué imperio fue gobernado por Carlomagno?",
+      "opciones": ["Imperio Romano", "Imperio Carolingio", "Imperio Bizantino", "Imperio Otomano"],
+      "respuestaCorrecta": "Imperio Carolingio",
+      "explicacion": "Carlomagno fue coronado emperador del Sacro Imperio Romano Germánico en el año 800, fundando el Imperio Carolingio."
+    }
+  ]
